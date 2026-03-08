@@ -20,3 +20,11 @@ Read-only server. All repos can read playbooks. Only agents in this repo write.
 
 ## Vocabulary
 See airlock-docs for the canonical glossary. Key terms: Module, Vault, Chamber, Gate, Pack, Controller, Maverick, Builder, Otto.
+
+## Ingestion
+Local reference files are available at `~/Desktop/Airlock/ingestion/`:
+- `documents/` — Source documents for extraction, analysis, or spec drafting
+- `research/` — External research, competitor analysis, market data
+- `imports/` — Files being imported into the platform (contracts, templates, datasets)
+
+All agents across the constellation can read from this shared ingestion folder via the `airlock-ingestion` MCP server.
