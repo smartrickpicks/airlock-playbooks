@@ -1,0 +1,15 @@
+{
+  "name": "platform-defaults-playbooks",
+  "version": "0.1.0",
+  "description": "Default operational playbooks that ship with every Airlock instance",
+  "author": "Airlock",
+  "vertical": "general",
+  "modules_required": [],
+  "price": "free",
+  "contents": {
+    "playbooks": 0,
+    "skills": 0,
+    "documents": 0,
+    "components": 0
+  }
+}
