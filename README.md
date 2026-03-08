@@ -1,19 +1,29 @@
-# airlock-playbooks
+# Airlock Playbooks
 
-Operational workflows, deployment procedures, and agent task templates for [Airlock](https://github.com/smartrickpicks/airlock-app).
+Operational workflows, agent task templates, and runbooks for the Airlock platform.
 
-## Structure
+## What's Here
 
-- `deployment/` — Infrastructure and deployment runbooks
-- `prospecting/` — Prospect research and outreach workflows
-- `onboarding/` — New user/workspace setup
-- `contracts/` — Contract lifecycle workflows
-- `agent-tasks/` — Automated agent task templates
+| Playbook | Path | Purpose |
+|----------|------|---------|
+| **Otto Prospect Research** | `prospecting/otto-research.md` | Research a prospect with Otto, enrich data, generate outreach |
+| **New Workspace Setup** | `onboarding/new-workspace.md` | Set up a new Airlock workspace from scratch |
+| **Vault Lifecycle** | `contracts/vault-lifecycle.md` | Move work through Discover > Build > Review > Ship |
+| **Agent Task Templates** | `agent-tasks/templates.md` | Standard formats for the agent coordination queue |
 
-## Pack Format
+## For Agents
 
-This repo is structured as a platform-defaults pack. See `pack.json` for metadata.
+This repo is an MCP read-only server. Agents in any Airlock repo can query playbooks but cannot modify them from outside. To update a playbook, work inside this repo directly.
 
-## Architecture
+Check `pack.json` for the structured index of all playbooks.
 
-Part of the Airlock constellation. See [airlock-config](https://github.com/smartrickpicks/airlock-config) for the MCP registry.
+## Playbook Format
+
+Every playbook follows this structure:
+
+- **Trigger**: When to use this playbook
+- **Modules used**: Which Airlock modules are involved
+- **Roles required**: Who can execute this
+- **Steps**: Specific, actionable instructions
+- **Otto Integration**: How the AI assistant helps at each step
+- **Outputs**: What this playbook produces

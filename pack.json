@@ -1,15 +1,39 @@
 {
-  "name": "platform-defaults-playbooks",
+  "name": "airlock-platform-playbooks",
   "version": "0.1.0",
-  "description": "Default operational playbooks that ship with every Airlock instance",
-  "author": "Airlock",
-  "vertical": "general",
-  "modules_required": [],
+  "author": "Airlock Platform",
+  "description": "Default operational playbooks that ship with every Airlock. Covers prospecting, onboarding, contract lifecycle, and agent task management.",
+  "vertical": "platform-default",
+  "modules_required": ["crm", "tasks", "documents", "contracts"],
   "price": "free",
-  "contents": {
-    "skills": [],
-    "playbooks": [],
-    "documents": [],
-    "components": []
-  }
+  "playbooks": [
+    {
+      "id": "otto-research",
+      "name": "Otto Prospect Research",
+      "path": "prospecting/otto-research.md",
+      "category": "prospecting",
+      "description": "Step-by-step workflow for Otto to research a prospect, enrich data, generate talking points, and draft outreach."
+    },
+    {
+      "id": "new-workspace",
+      "name": "New Workspace Setup",
+      "path": "onboarding/new-workspace.md",
+      "category": "onboarding",
+      "description": "Complete guide for a new Controller to set up their Airlock from first sign-in to first workflow."
+    },
+    {
+      "id": "vault-lifecycle",
+      "name": "Vault Lifecycle (Chamber Transitions)",
+      "path": "contracts/vault-lifecycle.md",
+      "category": "contracts",
+      "description": "How a Vault moves through Discover, Build, Review, Ship with gate criteria and approval requirements."
+    },
+    {
+      "id": "agent-task-templates",
+      "name": "Agent Task Templates",
+      "path": "agent-tasks/templates.md",
+      "category": "agent-tasks",
+      "description": "Standard task formats for the coordination queue. Templates for feature implementation, bug fixes, security work, docs, and more."
+    }
+  ]
 }
