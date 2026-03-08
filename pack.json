@@ -7,9 +7,9 @@
   "modules_required": [],
   "price": "free",
   "contents": {
-    "playbooks": 0,
-    "skills": 0,
-    "documents": 0,
-    "components": 0
+    "skills": [],
+    "playbooks": [],
+    "documents": [],
+    "components": []
   }
 }
