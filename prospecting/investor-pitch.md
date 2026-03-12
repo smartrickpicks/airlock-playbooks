@@ -103,7 +103,7 @@ If the investor needs a leave-behind or a pre-meeting summary:
 > Draft a one-page investor summary for [Investor]. Include:
 > - Problem statement (in their language, based on their thesis)
 > - Airlock's solution (focused on [angle])
-> - Traction (OrcestrateOS POC with Create Music Group, current state of the product)
+> - Traction (OrcestrateOS POC with Crescendo Entertainment Group, current state of the product)
 > - Ask (what you're raising, what it's for)
 > - Team (your background: military intelligence, Web3, community building)
 
@@ -190,7 +190,7 @@ Deliver the pitch. Trust the prep. Key principles:
 
 - **Lead with the problem, not the product.** The investor needs to feel the pain before they see the solution.
 - **Demo > slides.** Get to the live product as fast as possible. Airlock IS the pitch.
-- **Tell the OrcestrateOS story.** Create Music Group said the vision was "too big." You took that as a challenge. That's founder energy investors buy into.
+- **Tell the OrcestrateOS story.** Crescendo Entertainment Group said the vision was "too big." You took that as a challenge. That's founder energy investors buy into.
 - **End with the marketplace.** This is what turns Airlock from a product into a platform. Controllers, Mavericks, Packs — this is the Shopify analogy that makes the business model click.
 
 #### Step 4.2: Immediate Follow-Up
